@@ -1,0 +1,110 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+
+nav{
+      background-color: darkmagenta;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid green;
+      padding:0 200px;
+
+}
+div h2{
+      font-size: 35px;
+      color: white;
+     
+}
+
+div h2 span{
+      color: #83C848;
+}
+
+nav ul{
+      display: flex;
+   
+}
+
+nav ul li{
+      list-style: none;
+      margin: 0 10px;
+      padding: 25px 0;
+}
+nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+      padding: 8px 15px;
+      transition: 0.5s;
+      text-transform: uppercase;
+      font-weight: bold;
+     
+}
+
+nav ul li a:hover,.activ{
+      background-color: #3a053a;
+      border-radius: 5px;
+      color: red;
+}
+/* myblog code start */
+
+.box{
+      width: 1000px;
+      margin: 100px auto;
+}
+.myblog h4{
+      text-align: center;
+      font-size: 50px;
+      margin: 20px 0;
+}
+.myblog span{
+      color: red;
+}
+.contaoner{
+      display: flex;
+      justify-content: space-between;
+      
+   
+}
+
+.parant-chial{
+      width: 310px;
+      border-radius: 10px;
+      box-shadow: 10px  10px 10px gray;
+}
+
+.chaild-img{
+      width: 310px;
+    
+}
+
+.chaild-img img{
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    
+}
+.sing{
+      padding:15px;
+    
+}
+.sing span{
+      color: gray;
+      display: block;
+      margin: 10px 0;
+
+}
+
+.sing h3{
+      font-size: 25px;
+      margin-bottom: 10px;
+}
+
+.sing h5{
+      font-size: 18px;
+      margin: 15px 0;
+      cursor: pointer;
+}
